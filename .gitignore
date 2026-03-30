@@ -8,6 +8,7 @@ __pycache__/
 # Environment files
 .env
 
+
 # Editor / OS
 .vscode/
 .DS_Store
