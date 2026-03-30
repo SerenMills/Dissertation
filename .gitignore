@@ -5,11 +5,9 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Mac
-.DS_Store
-
-# VS Code
-.vscode/
-
-# Secrets
+# Environment files
 .env
+
+# Editor / OS
+.vscode/
+.DS_Store
