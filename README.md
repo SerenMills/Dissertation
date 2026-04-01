@@ -26,7 +26,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-👉 Use **Demo mode** if you don’t have an API key.
+ Use **Demo mode** if you don’t have an API key.
 
 ---
 
@@ -104,6 +104,9 @@ streamlit run app.py
 ## API Key Setup (Optional)
 
 You only need this for **Live mode**.
+Register for free google gemini account : https://ai.google.dev/gemini-api/docs
+Click API keys on the side bar when loaded into dashboard, then create/view api keys. 
+You will be able to create an API key for free without needing to attatch a card. Do not share this key with anyone. 
 
 ### Option 1 – Demo Mode (Recommended for marking)
 
