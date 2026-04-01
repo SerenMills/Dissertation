@@ -15,18 +15,7 @@ It then evaluates the generated outputs using the **Soteria rubric**, which scor
 - Transparency
 - Test Quality
 
----
 
-## Quick Start
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
- Use **Demo mode** if you don’t have an API key.
 
 ---
 
@@ -75,28 +64,24 @@ cd Dissertation
 Or download as a ZIP and extract.
 
 ---
-
-### 2. Create a virtual environment
+## 2 Quick Setup
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+
 ```
 
 ---
 
-### 3. Install dependencies
+## Running the App (save for further use)
 
 ```bash
-pip install -r requirements.txt
-```
-
----
-
-## Running the App
-
-```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
